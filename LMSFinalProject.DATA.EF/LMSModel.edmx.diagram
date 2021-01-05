@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="406b6a5cd4de40438a53c030e21cdd34" Name="Diagram1" ZoomLevel="87">
+        <EntityTypeShape EntityType="LMSModel.AspNetUser" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMSModel.Cours" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMSModel.Lesson" Width="1.5" PointX="3" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMSModel.LessonView" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMSModel.sysdiagram" Width="1.5" PointX="11.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMSModel.UserDetail" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LMSModel.CourseCompletion" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="LMSModel.FK_UserDetails_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="LMSModel.FK_CourseCompletions_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="LMSModel.FK_Lessons_Courses" ManuallyRouted="false" />
+        <AssociationConnector Association="LMSModel.FK_LessonViews_Lessons" ManuallyRouted="false" />
+        <AssociationConnector Association="LMSModel.FK_LessonViews_UserDetails" ManuallyRouted="false" />
+        <AssociationConnector Association="LMSModel.FK_CourseCompletions_UserDetails" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -183,16 +183,33 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\assets\img\bg-masthead.jpg" />
+    <Content Include="Content\assets\img\bg-signup.jpg" />
+    <Content Include="Content\assets\img\demo-image-01.jpg" />
+    <Content Include="Content\assets\img\demo-image-02.jpg" />
+    <Content Include="Content\assets\img\favicon.ico" />
+    <Content Include="Content\assets\img\ipad.png" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\styles.css" />
+    <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="_Archive\assets\img\bg-masthead.jpg" />
+    <Content Include="_Archive\assets\img\bg-signup.jpg" />
+    <Content Include="_Archive\assets\img\demo-image-01.jpg" />
+    <Content Include="_Archive\assets\img\demo-image-02.jpg" />
+    <Content Include="_Archive\assets\img\favicon.ico" />
+    <Content Include="_Archive\assets\img\ipad.png" />
+    <Content Include="_Archive\css\styles.css" />
+    <Content Include="_Archive\index.html" />
+    <Content Include="_Archive\js\scripts.js" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -251,6 +268,7 @@
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Account\DisplayEmail.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Shared\OriginalLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
